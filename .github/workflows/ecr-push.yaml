@@ -2,7 +2,6 @@ name: Build & Push to ECR (Secrets with Account ID)
 on:
   push:
     branches: [ "main" ]
-
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
